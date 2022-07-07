@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDMincho&family=IM+Fell+English+SC&family=Josefin+Sans:wght@100&family=Judson&family=Rancho&family=Roboto+Condensed:wght@300&family=Roboto:wght@300&family=Rubik+Moonrocks&family=Staatliches&display=swap');
+
+body {
+    text-align: center;
+    margin: 0;
+    background: linear-gradient(to left, rgb(214, 222, 245), rgb(243, 243, 243))
+}
+
+.menu {
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    margin-top: 0;
+    font-family: 'Staatliches', cursive;
+    
+}
+
+.links {
+    display: inline;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 20px;
+    color: rgb(25, 34, 88);
+    font-family: 'IM Fell English SC', serif;
+
+}
+
+a {
+    text-decoration: none;
+    color: rgb(25, 34, 88);
+    text-shadow: 2px 2px 2px rgb(188, 200, 212);
+    margin: auto;
+}
+
+.links:hover {
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#home {
+    background: linear-gradient(rgb(48, 48, 95), rgb(171, 231, 255));
+}
+
+img {
+    width: 410px;
+    height: 590px;
+    border-radius:50%;
+    margin-top: 60px;
+}
+
+#name {
+    font-size: 32px;
+    line-height: 1;
+    font-family: 'IM Fell English SC', serif;
+    font-weight: 100;
+    color: rgb(48, 48, 95);
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 100;
+    font-family: 'IM Fell English SC', serif;
+    margin-bottom: 0;
+    color: rgb(48, 48, 95);
+
+}
+
+
+
+
+
+#bio {
+    font-family: 'IM Fell English SC', serif;
+    padding: 50px;
+}
+
+.line {
+    height: 2px;
+    background-color: rgb(95, 105, 165);
+    width: 70px;
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 3px;
+}
+
+p {
+    font-size: 20px;
+}
+
+#books a {
+    text-shadow: none;
+    text-decoration: underline;
+    font-size: 18px;
+
+}
+
+#books a:hover {
+    color: blue;
+}
+
+#contact {
+    background:linear-gradient(white,rgb(165, 204, 229))
+}
+#contact iframe {
+    width: 100%;
+margin-top: 10px;
+}
+.contact a,i{
+    color:rgb(15, 23, 44) ;
+    text-shadow: none;
+    font-family: 'IM Fell English SC', serif;
+}
+.contact h3{
+    color:rgb(61, 67, 85) ;
+    font-weight: 0;
+    display: inline;
+    font-family: 'IM Fell English SC', serif;
+}
+.contact a :hover{
+    color: blue;
+    text-decoration: underline;
+}
